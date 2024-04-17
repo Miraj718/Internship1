@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>html link:-</h1>
+    HTML links are defined with the a tag:
+    <h2>Input</h2>
+    &lt;a href="https://www.youtube.com"&gt; Go to youtube &lt;/a&gt;
+    <h2>Output</h2>
+    <a href="https://www.youtube.com">Go to youtube</a>
+    <h2>html image:-</h2>
+    Html images are defined with the img tag :- <br>
+    <h2>Input</h2>
+    &lt;img src="./image/Nature.jpg" alt="Nature image" width="104" height="142"&gt;
+    <h2>Output</h2>
+    <img src="./image/Nature.jpg" alt="Nature image" width="104" height="142">
+    <h3>The target Attribute:-</h3>
+    <strong>
+    <ul>
+        <li>_self - Default. Opens the document in the same window/tab as it was clicked</li>
+            <li>_blank - Opens the document in a new window or tab</li>
+            <li>_parent - Opens the document in the parent frame</li>
+            <li>_top - Opens the document in the full body of the window</li>
+    </ul>
+</strong>
+<h2>Input</h2>
+&#60;a href="https://www.youtube.com" target="_blank"&#62;Go to youtube&#60;/a&#62;
+<h2>Output</h2>
+<a href="https://www.youtube.com" target="_blank">Go to youtube</a>
+<h3>Absolute URLS vs. Relative URLS:-</h3>
+<h2>Absolute URLs</h2>
+<h2>Input</h2>
+&#60;p&#62;&#60;a href="https://www.w3.org/"&#62;W3C&#60;/a&#62;&#60;/p&#62; <br>
+&#60;p&#62;&#60;a href="https://www.google.com/"&#62;Google&#60;/a&#62;&#60;/p&#62;
+
+<h2>Output</h2>
+<p><a href="https://www.w3.org/">W3C</a></p>
+<p><a href="https://www.google.com/">Google</a></p>
+<h2>Relative URLS</h2>
+<h2>Input</h2>
+&#60;p&#62;&#60;a href="/image/FAQS.jpg"&#62;FAQS&#60;/a&#62;&#60;/p&#62; <br>
+&#60;p&#62;&#60;a href="./image/Nature.jpg"&#62;Nature Images&#60;/a&#62;&#60;/p&#62;
+<h2>Output</h2>
+<p><a href="./image/Nature.jpg">Nature Images</a></p>
+<p><a href="/image/FAQS.jpg">FAQS</a></p>
+<h3>Link to an Email Address:-</h3>
+<h2>Input</h2>
+&#60;a href="mailto:someone@example.com"&#62;Send email&#60;/a&#62;
+<h2>Output</h2>
+<a href="mailto:someone@example.com">Send email</a>
+<h3>Button as a Link:-</h3>
+<p>To use an HTML button as a link, need to add some JavaScript code.</p>
+<h2>Input</h2>
+&#60;button onclick="window.location.href='https://www.youtube.com/'"&#62;GO to youtube&#60;/button&#62;
+<h2>Output</h2>
+<button onclick="window.location.href='https://www.youtube.com/'">GO to youtube</button>
+<h3>Link Titles:-</h3>
+<p>The title attribute specifies extra information about an element.</p>
+<h2>Input</h2>
+&#60;a href="https://www.youtube.com/" title="Go to youtube for watch some videos "&#62; visit youtube for entertainment &#60;/a&#62;
+<h2>Output</h2>
+<a href="https://www.youtube.com/" title="Go to youtube for watch some videos "> visit youtube for entertainment </a>
+<h3>Background Image on a HTML element:-</h3>
+<h2>Input</h2>
+<pre>
+&#60;p style="background-image: url(./image/Help-Desk.jpg); color: white;"&#62;
+    You can specify background images&#60;br&#62;
+    for any visible HTML element.&#60;br&#62;
+    In this example, the background image&#60;br&#62;
+    is specified for a p element.&#60;br&#62;
+    By default, the background-image&#60;br&#62;
+    will repeat itself in the direction(s)&#60;br&#62;
+    where it is smaller than the element&#60;br&#62;
+    where it is specified. Try resizing the&#60;br&#62;
+    browser window to see how the&#60;br&#62;
+    background image behaves.
+</pre>
+<h2>Output</h2>
+<p style="background-image: url(./image/Help-Desk.jpg); color: white;">
+    You can specify background images<br>
+    for any visible HTML element.<br>
+    In this example, the background image<br>
+    is specified for a p element.<br>
+    By default, the background-image<br>
+    will repeat itself in the direction(s)<br>
+    where it is smaller than the element<br>
+    where it is specified. Try resizing the<br>
+    browser window to see how the<br>
+    background image behaves.
+    
+</body>
+
+</html>

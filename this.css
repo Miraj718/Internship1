@@ -1,0 +1,29 @@
+/* p{
+    background-color: aqua;
+} */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    border: 10px solid black;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    padding: 16px;
+}
+.container{
+   overflow: auto;
+}
+.card{
+    float: left;
+    margin: 10px;
+    width: calc(25% - 20px);
+}

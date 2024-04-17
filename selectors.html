@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #xyz {
+        color: blue;
+    }
+
+    .xyz2 {
+        color: grey;
+    }
+</style>
+
+<body>
+    <h2>The CSS element Selector</h2>
+    <h4>The element selector selects HTML elements based on the element name.</h4>
+    <h3>Input</h3>
+    <pre><strong>
+     &lt;head&gt;
+       &lt;style&gt;
+      p {
+           color: red;  
+          } 
+       &lt;&#x2F;style&gt;
+      &lt;&#x2F;head&gt;
+      &lt;p style&#x3D;&quot;color: red;&quot;&gt;Every paragraph will be affected by the style.&lt;&#x2F;p&gt;
+      &lt;p style&#x3D;&quot;color: red;&quot;&gt;Me too!&lt;&#x2F;p&gt;
+      &lt;p style&#x3D;&quot;color: red;&quot;&gt;And me!&lt;&#x2F;p&gt;
+ </strong></pre>
+    <h3>Output</h3>
+    <p style="color: red;">Every paragraph will be affected by the style.</p>
+    <p style="color: red;">Me too!</p>
+    <p style="color: red;">And me!</p>
+
+    <h3>The CSS id Selector:-</h3>
+    To select an element with a specific id, write a hash (#) character, followed by the id of the element.
+    <h3>Input</h3>
+    <pre><strong>
+    &lt;head&gt;
+    &lt;style&gt;
+    #xyz {
+      color: blue;
+    }
+    &lt;&#x2F;style&gt;
+    &lt;&#x2F;head&gt;
+    &lt;p id&#x3D;&quot;xyz&quot;&gt;css help to save lot of time for developers &lt;&#x2F;p&gt;
+</strong></pre>
+    <h3>Output</h3>
+    <p id="xyz">css help to save lot of time for developers </p>
+    <h3>The CSS class Selector:-</h3>
+    To select elements with a specific class, write a period (.) character, followed by the class name.
+    <h3>Input</h3>
+    <pre><strong>
+        &lt;head&gt;
+&lt;style&gt;
+.xyz2 {
+  color: grey;
+}
+&lt;&#x2F;style&gt;
+&lt;&#x2F;head&gt; <br>
+&lt;h1 class&#x3D;&quot;xyz2&quot;&gt;there are many fun videos on youtube for reduce stress&lt;&#x2F;h1&gt;
+    </strong></pre>
+    <h3>Output</h3>
+    <h1 class="xyz2">there are many fun videos on youtube for reduce stress</h1>
+    <h3>The CSS Universal Selector:-</h3>
+    The universal selector (*) selects all HTML elements on the page.
+    <h3>Input</h3>
+    <pre>
+    &lt;head&gt;
+&lt;style&gt;
+* {
+  text-align: center;
+  color: blue;
+}
+&lt;&#x2F;style&gt;
+&lt;&#x2F;head&gt;
+&lt;h1&gt;this is me &lt;&#x2F;h1&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet consectetur adipisicing elit.&lt;&#x2F;p&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, quia?&lt;&#x2F;p&gt;
+</pre>
+    <h3>Output</h3>
+    <h1  style="color: blue; text-align: center;">this is me </h1>
+    <p  style="color: blue; text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <p  style="color: blue; text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, quia?</p>
+</body>
+
+</html>

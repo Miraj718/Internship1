@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            z-index: -1;
+        }
+    </style>
+</head>
+<body>
+    <h1>The z-Property</h1>
+    <p>The z-index property specifies the stack order of an element (which element should be placed in front of, or behind, the others).
+    </p>
+    <h3>Input</h3>
+   <pre>
+    &lt;head&gt;
+    &lt;style&gt;
+           img{
+               position: absolute;
+               left: 0px;
+               top: 0px;
+               z-index: -1;
+           }
+       &lt;&#x2F;style&gt;
+   &lt;&#x2F;head&gt;
+    &lt;h1&gt;This is Heading&lt;&#x2F;h1&gt;
+        &lt;img src&#x3D;&quot;.&#x2F;image&#x2F;img_tree.png&quot;&gt;
+       &lt;p&gt;Because the image has a z-index of -1, it will be placed behind the text.&lt;&#x2F;p&gt;
+   </pre>
+
+    <h3>Output</h3>
+      <h1>This is Heading 
+        <img src="./image/img_tree.png"></h1>
+    <p>Because the image has a z-index of -1, it will be placed behind the text.</p>
+</body>
+</html>

@@ -19,6 +19,58 @@
         <li> absolute</li>
         <li> sticky</li>
     </ol>
+    <h2>1.position: static:-</h2>
+
+    <p>An element with position: static; is not positioned in any special way; it is always positioned according to the normal flow of the page:</p>
+
+    <h3>Input:-</h3>
+    &lt;div style&#x3D;&quot;position: static; border: 2px solid green;&quot;&gt;This div element has position: static;&lt;&#x2F;div&gt;
+
+    <h3>Output:-</h3>
+    <div style="position: static; border: 2px solid green;">This div element has position: static;</div>
+
+    <h2>2.position: relative:-</h2>
+
+    <p>An element with position: relative; is positioned relative to its normal position.</p>
+
+    <h3>Input:-</h3>
+    &lt;div style&#x3D;&quot;position: relative; border: 2px dotted aqua;&quot;&gt;This div element has position: relative;&lt;&#x2F;div&gt;
+
+    <h3>Output:-</h3>
+    <div style="position: relative; border: 2px dotted aqua;">This div element has position: relative;</div>
+
+    <h2>3.position: fixed;</h2>
+
+    <p>An element with position: fixed; is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled:</p>
+
+    <h3>Input:-</h3>
+    &lt;div style&#x3D;&quot;position: fixed; border: 2px solid green; bottom: 0; right: 0; width: 200px;&quot;&gt;This div element has position: fixed;&lt;&#x2F;div&gt;
+
+    <h3>Output:-</h3>
+    <div style="position: fixed; border: 2px solid green; bottom: 0; right: 0; width: 200px;">This div element has position: fixed;</div>
+
+    <h2>4.position: absolute:-</h2>
+
+    <p>An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed):</p>
+
+    <h3>Input</h3>
+    &lt;div style&#x3D;&quot;position: relative; border: 5px solid green; width: 400px; height: 200px;&quot;&gt;This div element has position: relative; &lt;div style&#x3D;&quot;position: absolute; border: 5px solid green; width: 200px; height: 100px; right: 0; bottom: 0;&quot;&gt;This div element has position: absolute;&lt;&#x2F;div&gt;&lt;&#x2F;div&gt;
+
+    <h3>Output</h3>
+    <div style="position: relative; border: 5px solid green; width: 400px; height: 200px;">This div element has position: relative; <div style="position: absolute; border: 5px solid green; width: 200px; height: 100px; right: 0; bottom: 0;">This div element has position: absolute;</div></div>
+
+    <h2>5.position: sticky:-</h2>
+    <p></p>
+
+    <h3>Input</h3>
+
+    <h3>Output</h3>
+    <div style="position: sticky; position: -webkit-sticky; border: 2px solid green; top: 0;">I am sticky!</div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur aspernatur reiciendis accusamus fugit adipisci magni.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad iure eligendi aperiam, quis quasi nulla?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A nulla recusandae ipsa molestias quaerat repudiandae?</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab, ratione? Deleniti sunt eum distinctio neque.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, excepturi! Voluptate ea explicabo doloremque quae.</p>
 </body>
 
 </html>

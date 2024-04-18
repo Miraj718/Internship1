@@ -25,5 +25,5 @@ li a {
 .card{
     float: left;
     margin: 10px;
-    width: calc(25% - 20px);
+    /* width: calc(25% - 20px); */
 }

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a {
+            color: blue;
+        }
+
+        a:hover {
+            color: aqua;
+        }
+
+        a:active {
+            color: teal;
+        }
+
+        div{
+            border: 2px solid black;
+            background-color: aqua;
+            padding: 25px;
+        }
+        div:hover{
+            background-color: green;
+            padding: 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>CSS Pseudo-classes</h1>
+    <p>A pseudo-class is used to define a special state of an element.</p>
+    <p>For example, it can be used to:-</p>
+    <li>Style an element when a user mouses over it</li>
+    <li>Style visited and unvisited links differently</li>
+    <li>Style an element when it gets focus</li>
+
+    <h3>Input</h3>
+
+    <pre>
+ &lt;head&gt;
+ &lt;style&gt;
+        a{
+            color: blue;
+        }
+        a:hover{
+            color: aqua;
+        }
+       a:active{
+        color: teal;
+       }
+    &lt;&#x2F;style&gt;
+&lt;&#x2F;head&gt;
+
+&lt;a href&#x3D;&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;&quot; target&#x3D;&quot;_blank&quot;&gt;This is link&lt;&#x2F;a&gt;
+    </pre>
+
+
+    <h3>Output</h3>
+    <a href="https://www.youtube.com/" target="_blank">This is link</a>
+
+
+    <h3>Mouse over the div element below to change its background color:</h3>
+
+    <h3>Input</h3>
+    <pre>
+        &lt;head&gt;
+        &lt;style&gt;
+               div{
+                    border: 2px solid black;
+                    background-color: aqua;
+                    padding: 25px;
+                }
+                div:hover{
+                    background-color: green;
+                    padding: 25px;
+                }
+            &lt;&#x2F;style&gt;
+        &lt;&#x2F;head&gt;
+        &lt;div&gt;Mover over me&lt;&#x2F;div&gt;
+    </pre>
+
+    
+    <h3>Output</h3>
+    <div>Mover over me</div>
+</body>
+
+</html>

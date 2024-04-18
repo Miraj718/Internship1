@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div p {
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Combinators</h1>
+    <h2>A combinator is something that explains the relationship between the selectors.</h2>
+    <p>There are four different combinators in CSS:-</p>
+    <ol>
+        <li>descendant selector (space)</li>
+        <li>child selector (>)</li>
+        <li>adjacent sibling selector (+)</li>
+        <li>general sibling selector (~)</li>
+    </ol>
+    <h2>1.Descendant Selector</h2>
+    <p>The descendant selector matches all elements that are descendants of a specified element.</p>
+
+
+    <h3>Input</h3>
+    <pre>
+        &lt;head&gt;
+        &lt;style&gt;
+              div p{
+                  background-color: aqua;
+              }
+          &lt;&#x2F;style&gt;
+      &lt;&#x2F;head&gt;
+      
+      &lt;div&gt;
+              &lt;p&gt;This Paragraph inside the div&lt;&#x2F;p&gt;
+              &lt;p&gt;This Paragraph inside the div&lt;&#x2F;p&gt;
+              &lt;p&gt;This Paragraph inside the div&lt;&#x2F;p&gt;
+              &lt;p&gt;This Paragraph inside the div&lt;&#x2F;p&gt;
+          &lt;&#x2F;div&gt;
+              &lt;p&gt;This paragraph not inside the div&lt;&#x2F;p&gt;
+              &lt;p&gt;This paragraph not inside the div&lt;&#x2F;p&gt;
+              &lt;p&gt;This paragraph not inside the div&lt;&#x2F;p&gt;
+    </pre>
+
+
+    <h3>Output</h3>
+    <div>
+        <p>This Paragraph inside the div</p>
+        <p>This Paragraph inside the div</p>
+        <p>This Paragraph inside the div</p>
+        <p>This Paragraph inside the div</p>
+    </div>
+        <p>This paragraph not inside the div</p>
+        <p>This paragraph not inside the div</p>
+        <p>This paragraph not inside the div</p>
+
+
+      <h2>2.child selector (>)</h2>  
+
+      <p>The child selector (>) selects all elements that are the children of a specified element.</p>
+
+
+      <h2>3.adjacent sibling selector (+)</h2>
+
+      <p>The adjacent sibling selector is used to select an element that is directly after another specific element.</p>
+
+
+      <h2>4.general sibling selector (~)</h2>
+
+      <p>The general sibling selector (~) selects all elements that are next siblings of a specified element.</p>
+</body>
+</html>

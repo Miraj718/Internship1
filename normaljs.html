@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>JavaScript Introduction</h1>
+    <h2>JavaScript Can Change HTML Content:-</h2>
+    <p>One of many JavaScript HTML methods is getElementById():-</p>
+
+    <h3>What Can JavaScript Do?</h3>
+
+    <p id="demo">JavaScript can change HTML content.</p>
+
+    <button type="button" onclick='document.getElementById("demo").innerHTML="Hello Everyone"'>click</button>  <br>
+
+
+    <h3>Use javascript to turn on and turn off the light</h3>
+
+    <button onclick="document.getElementById('mylight').src='./image/pic_bulbon.gif'">Turn on the light</button>
+
+   <img id="mylight" src="./image/pic_bulboff.gif" style="width: 100px;">
+
+   <button onclick="document.getElementById('mylight').src='./image/pic_bulboff.gif'">Turn off the light</button>
+    
+</body>
+</html>

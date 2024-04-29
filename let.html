@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>JavaScript Let</h1>
+    <h2>The let keyword was introduced in ES6 (2015):-</h2>
+    <p>Variables declared with let cannot be Redeclared in the same scope:-</p>
+
+
+
+    <li>Now we cann't use the  x (variable) again because it is already declared. And if we want to use againt let during that time we need to use different variable.</li>
+
+
+    <h3>Input:-</h3>
+
+    <pre>
+        &lt;p id&#x3D;&quot;demo&quot;&gt;&lt;&#x2F;p&gt;
+
+        &lt;script&gt;
+            let x &#x3D; 55;
+            let y &#x3D; 45;
+            let z &#x3D; x+y;
+            document.getElementById(&quot;demo&quot;).innerHTML&#x3D;&quot;The value of z:&quot; + z;
+        &lt;&#x2F;script&gt;
+    </pre>
+
+
+    <h3>Output:-</h3>
+
+    <p id="demo"></p>
+
+    <script>
+        let x = 55;
+        let y = 45;
+        //  x = x+10;
+        let z = x+y;
+        document.getElementById("demo").innerHTML="The value of z:" + z;
+    </script>
+
+
+    
+</body>
+</html>

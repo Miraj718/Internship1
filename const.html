@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>JavaScript Const</h1>
+    <h2> The const keyword was introduced in ES6 (2015):-</h2>
+    <li>Variables defined with const cannot be Redeclared
+       and 
+        Variables defined with const cannot be Reassigned.</li>
+
+
+        <h3>Input:-</h3>
+
+        <pre>
+            &lt;p id&#x3D;&quot;demo4&quot;&gt;&lt;&#x2F;p&gt;
+
+            &lt;script&gt;
+                const name &#x3D; [&quot;Panner&quot;, &quot;Chinese&quot;, &quot;soup&quot;];
+                name[1] &#x3D; [&quot;Roti&quot;];
+                name.push &#x3D; [&quot;Ice-cream&quot;];
+                document.getElementById(&quot;demo4&quot;).innerHTML&#x3D;&quot;Menu:-&quot; + &quot; &quot; + name;
+            &lt;&#x2F;script&gt;
+        </pre>
+
+
+        <h3>Output:-</h3>
+
+        <p>Declaring a constant array does NOT make the elements unchangeable:</p>
+
+
+        <p id="demo4"></p>
+
+        <script>
+            const name = ["Panner", "Chinese", "soup"];
+            name[1] = ["Roti"];
+            name.push = ["Ice-cream"];
+            document.getElementById("demo4").innerHTML="Menu:-" + " " + name;
+        </script>
+</body>
+</html>

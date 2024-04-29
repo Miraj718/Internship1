@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>JavaScript Variables</h1>
+    <h2>JavaScript Variables can be declared in 4 ways:-</h2>
+    <p>Automatically, Using var, Using let, Using const:-</p>
+
+
+    <h3>1.Automatically:-</h3>
+
+    <h3>Input:-</h3>
+
+    <pre>
+        &lt;p id&#x3D;&quot;demo&quot;&gt;&lt;&#x2F;p&gt;
+
+        &lt;script&gt;
+            x &#x3D; 122
+            y &#x3D; 252
+            z &#x3D; x+y
+            document.getElementById(&#39;demo&#39;).innerHTML &#x3D; &quot;This is value of z:&quot; + z;
+        &lt;&#x2F;script&gt;
+    </pre>
+
+
+    <h3>Output:-</h3>
+
+    <p id="demo"></p>
+
+    <script>
+        x = 122;
+        y = 252;
+        z = x+y;
+        document.getElementById('demo').innerHTML = "This is value of z:" + z;
+    </script>
+
+
+    <h3>2.Using var:-</h3>
+
+    <h3>Input:-</h3>
+
+    <pre>
+        &lt;p id&#x3D;&quot;demo2&quot;&gt;&lt;&#x2F;p&gt;
+
+        &lt;script&gt;
+            var x &#x3D; 10;
+            var y &#x3D; 5;
+            var z &#x3D; x+y
+            document.getElementById(&quot;demo2&quot;).innerHTML&#x3D;&quot;This is value of z:&quot; + z;
+        &lt;&#x2F;script&gt;
+    </pre>
+
+
+    <h3>Output:-</h3>
+
+    <p id="demo2"></p>
+
+    <script>
+        var x = 10;
+        var y = 5;
+        var z = x+y;
+        document.getElementById("demo2").innerHTML="This is value of z:" + z;
+    </script>
+
+
+
+   <h3>3.Using let:-</h3>
+
+   <h3>Input:-</h3>
+
+   <pre>
+    &lt;p id&#x3D;&quot;dome3&quot;&gt;&lt;&#x2F;p&gt;
+
+    &lt;script&gt;
+     let x &#x3D; 100;
+     let y &#x3D; 75;
+     let z &#x3D; x+y;
+     document.getElementById(&quot;demo3&quot;).innerHTML&#x3D;&quot;This is value of z:&quot; + z;
+    &lt;&#x2F;script&gt;
+   </pre>
+
+
+   <h3>Output:-</h3>
+
+   <p id="thisss"></p>
+
+   <script>
+    let x = 100;
+    let y = 75;
+    let z = x+y;
+    document.getElementById("thisss").innerHTML="This is value of z:" + z;
+   </script>
+
+
+   <h3>4.Using const:-</h3>
+
+   <h3>Input:-</h3>
+
+   <pre>
+    &lt;p id&#x3D;&quot;semo&quot;&gt;&lt;&#x2F;p&gt;
+
+   
+    &lt;script&gt;
+     const p &#x3D; 100;
+     const o &#x3D; 95;
+     const s &#x3D; x+y;
+     document.getElementById(&quot;semo&quot;).innerHTML&#x3D;&quot;This is value of s:&quot; + s;
+    &lt;&#x2F;script&gt;
+   </pre>
+
+
+   <h3>Output:-</h3>
+
+   <p id="semo1"></p>
+
+   
+   <script>
+    const p = 95;
+    const o = 55;
+    const s = p+o;
+    document.getElementById("semo1").innerHTML="This is value of s:" + s;
+   </script>
+
+
+
+   <h2>When to Use var, let, or const?</h2>
+
+   <strong>
+    <ol>
+        <li>Always declare variables</li>
+
+        <li>Always use const if the value should not be changed</li>
+            
+        <li>Always use const if the type should not be changed (Arrays and Objects)</li>
+            
+        <li>Only use let if you can't use const</li>
+            
+        <li>Only use var if you MUST support old browsers.</li>
+    </ol>
+   </strong>
+
+
+
+   <h3>On one single line, declare three variables with the following names and values:-</h3>
+
+   <h3>Input:-</h3>
+
+   <pre>
+    &lt;p id&#x3D;&quot;single&quot;&gt;&lt;&#x2F;p&gt;
+
+    &lt;script&gt;
+     let Firstname &#x3D; &quot;Miraj&quot;;
+     let Lastname  &#x3D; &quot;Sagara&quot;;
+     let age &#x3D; 22;
+     document.getElementById(&quot;single&quot;).innerHTML&#x3D;Firstname + &quot; &quot;+Lastname+ &quot; &quot;+age;
+    &lt;&#x2F;script&gt;
+   </pre>
+
+
+   <h3>Output:-</h3>
+
+   <p id="single"></p>
+
+   <script>
+    let Firstname = "Miraj";
+    let Lastname  = "Sagara";
+    let age = 22;
+    document.getElementById("single").innerHTML=Firstname + " "+Lastname+ " "+age;
+   </script>
+</body>
+</html>

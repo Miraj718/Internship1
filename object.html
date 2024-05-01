@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>JavaScript Objects</h1>
+    <h2>In JavaScript, objects are king. If you understand objects, you understand JavaScript.</h2>
+    <p>In JavaScript, almost "everything" is an object.</p>
+
+
+    <h3>Using an object constructor:-</h3>
+
+    <p id="demo"></p>
+
+    <script>
+
+        function Person(first, last, age) {
+            this.firstName = first;
+            this.lastName = last;
+            this.age = age;
+        }
+        const Student = new Person("John", "Sada", 21);
+        const Employees = new Person("Mukeshbhai", "Soda", 29)
+
+
+        document.getElementById("demo").innerHTML = "Student age is" + " " + Student.age;
+    </script>
+
+
+
+    <h2>Using the prototype Property:-</h2>
+
+    <p>The JavaScript prototype property allows you to add new properties to object constructors:-</p>
+
+    <p id="that"></p>
+
+    <script>
+
+        function persons(first, last, age, branch) {
+            this.firstName = first;
+            this.lastName = last;
+            this.age = age;
+            this.branchName = branch;
+        }
+
+        persons.prototype.Sem = 4;
+        const students = new persons("krunal", "Panchal", 21, "MCA");
+        const students1 = new persons("Parth", "Patel", 22, "MCA");
+
+        document.getElementById("that").innerHTML = "MCA Students list  :-" + "<br>" + students.firstName + " " + students.age + " " + students.branchName + students.Sem + "<Br>" + students1.firstName + " " + students1.age + " " + students1.branchName + " " + students1.Sem;
+    </script>
+
+
+    <h2>JavaScript Object Methods:-</h2>
+
+    <p id="mum"></p>
+
+    <script>
+
+    const people = {
+         firstname : "same",
+         lastname : "sushi",
+        id : 454544,
+       fullname: function (){
+          return this.firstname + " " + this.lastname;
+        }
+    };
+        
+
+       document.getElementById("mum").innerHTML = people.fullname();
+    </script>
+
+
+
+<!-- 
+    <script>
+        function clickcopy() {
+            var miraj = document.getElementById("same");
+
+            miraj.select();
+
+            document.execCommand("copy");
+        }
+    </script>
+
+    <textarea name="same" id="same" cols="30" rows="10">Text Here</textarea>
+    <button onclick="clickcopy()">Click for copy</button> -->
+</body>
+
+</html>

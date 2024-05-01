@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>JavaScript Strings</h1>
+    <li>Strings are for storing text.</li>
+    <li>Strings are written with quotes.</li>
+
+
+    <h3>Input:-</h3>
+
+    <pre>
+        &lt;p id&#x3D;&quot;demo&quot;&gt;&lt;&#x2F;p&gt;
+   
+        &lt;script&gt;
+            let text &#x3D; &quot;Krunal Panchal&quot;;     &lt;!-- String written inside quotes --&gt;
+            document.getElementById(&quot;demo&quot;).innerHTML &#x3D; text;
+        &lt;&#x2F;script&gt;       
+    </pre>
+
+
+    <h3>Output:-</h3>
+
+    <p id="demo"></p>
+
+    <script>
+        let text = "Krunal Panchal";     <!-- String written inside quotes -->
+        document.getElementById("demo").innerHTML = text;
+    </script>
+
+    
+    <h2>2.String Length:-</h2>
+
+    <p>To find the length of a string, use the built-in length property:-</p>
+
+    <h3>Input:-</h3>
+
+    <pre>
+        &lt;p id&#x3D;&quot;dome&quot;&gt;&lt;&#x2F;p&gt;
+
+        &lt;script&gt;
+            let tex &#x3D; &quot;ABCDEFGHIJKLMNOPQRSTUVWXY&quot;;
+            document.getElementById(&quot;dome&quot;).innerHTML &#x3D; tex.length;
+        &lt;&#x2F;script&gt;
+    </pre>
+
+
+    <h3>Output:-</h3>
+
+
+    <p id="dome"></p>
+
+    <script>
+        let tex = "ABCDEFGHIJKLMNOPQRSTUVWXY";
+        document.getElementById("dome").innerHTML = tex.length;
+    </script>
+
+
+    <h2>2.JavaScript Strings as Objects:-</h2>
+
+
+    <h3>Input:-</h3>
+
+    <pre>
+        &lt;p id&#x3D;&quot;that&quot;&gt;&lt;&#x2F;p&gt;
+
+        &lt;script&gt;
+            let r &#x3D; &quot;john&quot;;
+    
+            let y &#x3D; new String(&quot;don&quot;);
+    
+            document.getElementById(&quot;that&quot;).innerHTML &#x3D; r + &quot;&lt;br&gt;&quot; + typeof y;
+        &lt;&#x2F;script&gt;
+    </pre>
+
+    
+    <h3>Output:-</h3>
+
+    <p id="that"></p>
+
+    <script>
+        let r = "john";
+
+        let y = new String("don");
+
+        document.getElementById("that").innerHTML = r + "<br>" + typeof y;
+    </script>
+
+</body>
+
+</html>

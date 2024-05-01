@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>JavaScript Function Definitions</h1>
+
+    <p>Call a function which performs a calculation and returns the result:-</p>
+
+    <h3>Input:-</h3>
+
+    <pre>
+       
+    &lt;p id&#x3D;&quot;demo&quot;&gt;&lt;&#x2F;p&gt;
+
+    &lt;script&gt;
+        let x &#x3D; myfunction(4, 3);
+        document.getElementById(&quot;demo&quot;).innerHTML &#x3D; x;
+
+        function myfunction (a, b){
+            return a*b
+        }
+    &lt;&#x2F;script&gt;
+
+
+   &lt;p id&#x3D;&quot;sames&quot;&gt;&lt;&#x2F;p&gt;
+
+   &lt;script&gt;
+    const demo &#x3D; {
+     firstName: &quot;john&quot;,
+     lastName: &quot;doe&quot;,
+     fullName: function(){
+        return this.firstName + &quot; &quot; + this.lastName;
+     }
+    }
+    document.getElementById(&quot;sames&quot;).innerHTML &#x3D; demo.fullName();
+   &lt;&#x2F;script&gt;
+    </pre>
+
+
+    <h3>Output:-</h3>
+
+    <p id="demo"></p>
+
+    <script>
+        let x = myfunction(4, 3);
+        document.getElementById("demo").innerHTML = x;
+
+        function myfunction (a, b){
+            return a*b
+        }
+    </script>
+
+
+   <p id="sames"></p>
+
+   <script>
+    const demo = {
+     firstName: "john",
+     lastName: "doe",
+     fullName: function(){
+        return this.firstName + " " + this.lastName;
+     }
+    }
+    document.getElementById("sames").innerHTML = demo.fullName();
+   </script>
+</body>
+</html>

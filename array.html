@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>JavaScript Arrays</h1>
+    <h2>An array is a special variable, which can hold more than one value:-</h2>
+
+    <p>It is a common practice to declare arrays with the const keyword:-</p>
+
+    <h3>Input:-</h3>
+
+    <pre>
+           &lt;p id&#x3D;&quot;demo&quot;&gt;&lt;&#x2F;p&gt;
+
+    &lt;script&gt;
+        const cars &#x3D; [&quot;VOLVO&quot;,&quot;BMW&quot;,&quot;SWIFT&quot;];
+
+        document.getElementById(&quot;demo&quot;).innerHTML &#x3D; cars;
+    &lt;&#x2F;script&gt;
+    </pre>
+
+
+
+    <h3>Output:-</h3>
+
+    <p id="demo"></p>
+
+    <script>
+        const cars = ["VOLVO","BMW","SWIFT"];
+
+        document.getElementById("demo").innerHTML = cars;
+    </script>
+
+
+   <h3>Another way to written arrays:-</h3>
+
+   <h3>Input:-</h3>
+
+   <pre>
+    &lt;p id&#x3D;&quot;same&quot;&gt;&lt;&#x2F;p&gt;
+
+    &lt;script&gt;
+     const car &#x3D; [];
+     car[0] &#x3D; &quot;Fortuner&quot;;
+     car[1] &#x3D; &quot;harrier&quot;;
+ 
+     document.getElementById(&quot;same&quot;).innerHTML &#x3D; car;
+    &lt;&#x2F;script&gt;
+   </pre>
+
+
+   <h3>Output:-</h3>
+
+   <p id="same"></p>
+
+   <script>
+    const car = [];
+    car[0] = "Fortuner";
+    car[1] = "harrier";
+
+    document.getElementById("same").innerHTML = car;
+   </script>
+
+
+
+   <h3>JavaScript array elements are accessed using numeric indexes (starting from 0).</h3>
+
+
+   <h3>Input:-</h3>
+
+   <pre>
+    &lt;p id&#x3D;&quot;rome&quot;&gt;&lt;&#x2F;p&gt;
+
+    &lt;script&gt;
+     const mobile &#x3D; [&quot;Samsung&quot;, &quot;Redmi&quot;,&quot;Vivo&quot;];
+     mobile[0] &#x3D; &quot;Apple&quot;;
+     
+ 
+     document.getElementById(&quot;rome&quot;).innerHTML &#x3D; mobile;
+    &lt;&#x2F;script&gt;
+   </pre>
+
+
+   <h3>Output:-</h3>
+
+   <p id="rome"></p>
+
+   <script>
+    const mobile = ["Samsung", "Redmi","Vivo"];
+    mobile[0] = "Apple";
+    
+
+    document.getElementById("rome").innerHTML = mobile;
+   </script>
+
+
+  <h3>The toString() method returns an array as a comma separated string:-</h3>
+
+
+  <h3>Input:-</h3>
+
+  <pre>
+    &lt;p id&#x3D;&quot;fruits&quot;&gt;&lt;&#x2F;p&gt;
+
+    &lt;script&gt;
+      const fruits &#x3D; [&quot;Banana&quot;, &quot;Orange&quot;, &quot;Apple&quot;, &quot;Mango&quot;];
+  
+      document.getElementById(&quot;fruits&quot;).innerHTML &#x3D; fruits.toString();
+    &lt;&#x2F;script&gt;
+  </pre>
+
+
+  <h3>Output:-</h3>
+
+  <p id="fruits"></p>
+
+  <script>
+    const fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+    document.getElementById("fruits").innerHTML = fruits.toString();
+  </script>
+
+
+  <h3>The length Property:-</h3>
+
+  <p>The length property of an array returns the length of an array (the number of array elements).</p>
+
+  <h3>Input:-</h3>
+
+  <pre>
+    &lt;p id&#x3D;&quot;fruit&quot;&gt;&lt;&#x2F;p&gt;
+
+    &lt;script&gt;
+      const fruit &#x3D; [&quot;apple&quot;,&quot;coconat&quot;,&quot;orange&quot;];
+  
+      document.getElementById(&quot;fruit&quot;).innerHTML &#x3D; fruit.length
+    &lt;&#x2F;script&gt;
+  </pre>
+
+
+  <h3>Output:-</h3>
+
+  <p id="fruit"></p>
+
+  <script>
+    const fruit = ["apple","coconat","orange"];
+
+    document.getElementById("fruit").innerHTML = fruit.length
+  </script>
+
+
+
+   <h3>The push method appends a new element to an array.</h3>
+
+
+   <h3>Input:-</h3>
+
+   <pre>
+    &lt;p id&#x3D;&quot;john&quot;&gt;&lt;&#x2F;p&gt;
+
+    &lt;script&gt;
+     const name &#x3D; [&quot;yrhhe&quot;,&quot;djdjs&quot;,&quot;ddasdjns&quot;]
+     
+     name.push(&quot;fhfhff&quot;);
+     document.getElementById(&quot;john&quot;).innerHTML &#x3D; name; 
+ 
+    &lt;&#x2F;script&gt;
+   </pre>
+
+
+   <h3>Output:-</h3>
+
+   <p id="john"></p>
+
+   <script>
+    const name = ["yrhhe","djdjs","ddasdjns"]
+    
+    name.push("fhfhff");
+    document.getElementById("john").innerHTML = name; 
+
+   </script>
+   
+   <!-- // function myfunction(){ -->
+         
+    <!-- // } -->
+</body>
+</html>

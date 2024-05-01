@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>JavaScript For Loop</h1>
+    <h2>Loops can execute a block of code a number of times:-</h2>
+    <p>Loops are handy, if you want to run the same code over and over again, each time with a different value:-</p>
+
+    <h3>Input:-</h3>
+
+    <pre>
+        &lt;p id&#x3D;&quot;demo&quot;&gt;&lt;&#x2F;p&gt;
+
+        &lt;script&gt;
+            let text &#x3D; &quot;&quot;;
+          
+            for ( i &#x3D; 0; i &lt; 5; i++){
+                text +&#x3D; &quot;The number is&quot; + i + &quot;&lt;br&gt;&quot;;
+            }
+            
+            document.getElementById(&quot;demo&quot;).innerHTML &#x3D; text;
+        &lt;&#x2F;script&gt;              
+    </pre>
+
+
+
+    <h3>Output:-</h3>
+
+    <p id="demo"></p>
+
+    <script>
+        let text = "";
+      
+        for ( i = 0; i < 5; i++){
+            text += "The number is" + i + "<br>";
+        }
+        
+        document.getElementById("demo").innerHTML = text;
+    </script>
+</body>
+</html>

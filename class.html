@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>JavaScript Classes</h1>
+    <h2>JavaScript Classes are templates for JavaScript Objects:-</h2>
+
+    <p>Use the keyword class to create a class:-</p>
+
+
+    <h3>Input:-</h3>
+
+    <pre>
+        &lt;p id&#x3D;&quot;demo&quot;&gt;&lt;&#x2F;p&gt;
+
+        &lt;script&gt; 
+    
+            class car{
+                constructor(name,year){
+                this.name &#x3D; name;
+                this.year &#x3D; year;
+                }   
+                 }
+            const mycar1 &#x3D; new car(&quot;ford&quot;,1998);
+            const mycar2 &#x3D; new car(&quot;BMW&quot;,1999);
+    
+            document.getElementById(&quot;demo&quot;).innerHTML &#x3D; mycar1.name + &quot; &quot; + mycar2.name
+        &lt;&#x2F;script&gt;
+    </pre>
+
+
+
+    <h3>Output:-</h3>
+
+    <p id="demo"></p>
+
+    <script> 
+
+        class car{
+            constructor(name,year){
+            this.name = name;
+            this.year = year;
+            }   
+             }
+        const mycar1 = new car("ford",1998);
+        const mycar2 = new car("BMW",1999);
+
+        document.getElementById("demo").innerHTML = mycar1.name + " " + mycar2.name
+    </script>
+
+
+
+
+
+     <script>
+
+        function calculateArea(weight,height){
+          return weight*height;
+        }
+        const weight = 68;
+        const height = 6.5;
+        let are = calculateArea(weight,height)
+      
+
+     console.log("The" + are)
+     </script>
+</body>
+</html>
